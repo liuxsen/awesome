@@ -1,0 +1,6 @@
+{
+  "name": "awesome",
+  "engines": {
+    "node": ">=14.15"
+  }
+}
