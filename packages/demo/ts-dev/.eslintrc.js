@@ -12,10 +12,10 @@ module.exports = {
     'import/parsers': {
       '@typescript-eslint/parser': ['.ts', '.tsx']
     },
+    // 为了读取tsconfig.json 文件，适配 ts 的 pathmaping
     'import/resolver': {
       typescript: {
-        alwaysTryTypes: true,
-        project: './tsconfig.json'
+        project: '/Users/liujianhui/apps/awesome/packages/demo/ts-dev/tscconfig.json'
       }
     }
   }
