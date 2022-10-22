@@ -23,6 +23,7 @@
             "-r",
             "ts-node/register"
         ],
+        // https://typestrong.org/ts-node/docs/recipes/visual-studio-code
         // https://github.com/TypeStrong/ts-node/issues/565#issuecomment-657098763
         "cwd": "${workspaceFolder}/packages/demo/ts-dev",
         "args": [
