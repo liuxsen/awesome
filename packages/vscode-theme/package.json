@@ -1,13 +1,13 @@
 {
-  "name": "theme-cobalt2",
+  "name": "theme-liuxsen",
   "version": "2.2.5",
-  "displayName": "Cobalt2 Theme Official",
-  "description": "🔥 Official theme by Wes Bos.",
-  "publisher": "wesbos",
+  "displayName": "liuxsen Theme Official",
+  "description": "🔥 Official theme by liuxsen.",
+  "publisher": "liuxsen",
   "icon": "images/logo.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wesbos/cobalt2-vscode"
+    "url": "https://github.com/liuxsen/cobalt2-vscode"
   },
   "galleryBanner": {
     "color": "#193549",
@@ -30,9 +30,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Cobalt2",
+        "label": "liuxsen",
         "uiTheme": "vs-dark",
-        "path": "./theme/cobalt2.json"
+        "path": "./theme/liuxsen.json"
       }
     ]
   },

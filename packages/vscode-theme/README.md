@@ -1,4 +1,4 @@
-# Cobalt2 Theme for VS Code
+# Liuxsen Theme for VS Code
 
 [![Version](https://vsmarketplacebadge.apphb.com/version/wesbos.theme-cobalt2.svg)](https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2)
 
@@ -19,7 +19,7 @@
 {
   // This is all that matters
   "workbench.colorTheme": "Cobalt2",
-  // The Cursive font is operator Mono, it's $200 and you need to buy it to get the cursive. Dank Mono or Victor Mono are good alternatives 
+  // The Cursive font is operator Mono, it's $200 and you need to buy it to get the cursive. Dank Mono or Victor Mono are good alternatives
   "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 17,
   "editor.lineHeight": 25,
