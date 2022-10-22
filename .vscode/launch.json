@@ -14,13 +14,20 @@
             "${workspaceFolder}/packages/ts/out/**/*.js"
         ]
       },
+      // https://typestrong.org/ts-node/docs/recipes/visual-studio-code
       {
         "type": "node",
-        "request": "attach",
-        "name": "Typescript Server",
-        "port": 9229,
-        "restart": true,
-        "cwd": "${workspaceRoot}"
-      }
+        "request": "launch",
+        "name": "ts-dev",
+        "runtimeArgs": [
+            "-r",
+            "ts-node/register"
+        ],
+        // https://github.com/TypeStrong/ts-node/issues/565#issuecomment-657098763
+        "cwd": "${workspaceFolder}/packages/demo/ts-dev",
+        "args": [
+            "src/index.ts"
+        ]
+    }
   ]
 }
