@@ -1,6 +1,6 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "Cobalt",
+  "name": "liuxsen",
   "type": "dark",
   "semanticHighlighting": true,
   "semanticTokenColors": {
@@ -30,7 +30,7 @@
     "activityBar.border": "#0d3a58",
     "activityBar.dropBackground": "#0d3a58",
     "activityBar.foreground": "#fff",
-    "activityBarBadge.background": "#ffc600",
+    "activityBarBadge.background": "#cdfda2",
     "activityBarBadge.foreground": "#000",
     // badge
     "badge.background": "#ffc600",
@@ -220,10 +220,10 @@
     // selection
     "selection.background": "#027dff",
     // sidebar
-    "sideBar.background": "#15232d",
-    "sideBar.border": "#0d3a58",
-    "sideBar.foreground": "#aaa",
-    "sideBarSectionHeader.background": "#193549",
+    "sideBar.background": "#11324a",
+    "sideBar.border": "#6a8fa9",
+    "sideBar.foreground": "#dcdcdc",
+    "sideBarSectionHeader.background": "#122431",
     "sideBarSectionHeader.foreground": "#aaaaaa",
     "sideBarTitle.foreground": "#aaaaaa",
     // statusBar
@@ -244,7 +244,7 @@
     "tab.activeBackground": "#193549",
     "tab.activeForeground": "#fff",
     "tab.border": "#15232D",
-    "tab.activeBorder": "#ffc600",
+    "tab.activeBorder": "#1cb4df",
     "tab.inactiveBackground": "#122738",
     "tab.inactiveForeground": "#aaa",
     "tab.unfocusedActiveForeground": "#aaa",

@@ -1,16 +1,11 @@
 # Liuxsen Theme for VS Code
 
-[![Version](https://vsmarketplacebadge.apphb.com/version/wesbos.theme-cobalt2.svg)](https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2)
-
-![Preview](https://raw.githubusercontent.com/wesbos/cobalt2-vscode/cobalt2-updates/images/ss.png)
-
-
 # Installation
 
 1. Open **Extensions** sidebar panel in VS Code. `View → Extensions`
-2. Search for `Cobalt2` - find the one by **Wes Bos** - there are a few other half-baked ones so make sure you have the right one!
+2. Search for `liuxsen` - find the one by **liuxsen**
 3. Click **Install** to install it.
-4. Code > Preferences > Color Theme > **Cobalt2**
+4. Code > Preferences > Color Theme > **liuxsen**
 5. Optional: Use the recommended settings below for best experience
 
 ## Recommended Settings
@@ -18,7 +13,7 @@
 ```js
 {
   // This is all that matters
-  "workbench.colorTheme": "Cobalt2",
+  "workbench.colorTheme": "liuxsen",
   // The Cursive font is operator Mono, it's $200 and you need to buy it to get the cursive. Dank Mono or Victor Mono are good alternatives
   "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 17,
@@ -52,7 +47,7 @@ To work on the theme:
 1. Clone this repo and open in VS Code
 2. Open run `View → Run`
 3. Click `Launch Extension`. This will open up another VS Code Editor
-4. Make changes to `cobalt2.json`. You will see changes reflected in the other editor that opened in step 3.
+4. Make changes to `liuxsen.json`. You will see changes reflected in the other editor that opened in step 3.
 
 If you are making a Pull Request, Please give me a screenshot of before/after!
 
@@ -72,14 +67,14 @@ These are the things we have control over. If you would like to change something
 
 https://code.visualstudio.com/docs/getstarted/theme-color-reference
 
-## Put Cobalt2 in other places!
+## Put liuxsen in other places!
 
-* [Sublime Text](https://github.com/wesbos/cobalt2)
-* [Atom](https://github.com/wesbos/Cobalt2-atom)
-* [iTerm2](https://github.com/wesbos/Cobalt2-iterm)
-* [Hyper Term](https://github.com/wesbos/hyperterm-cobalt2-theme)
-* [Alfred](https://github.com/wesbos/Cobalt2-Alfred-Theme)
-* [Slack](https://github.com/wesbos/Cobalt2-Slack)
+* [Sublime Text](https://github.com/wesbos/liuxsen)
+* [Atom](https://github.com/wesbos/liuxsen-atom)
+* [iTerm2](https://github.com/wesbos/liuxsen-iterm)
+* [Hyper Term](https://github.com/wesbos/hyperterm-liuxsen-theme)
+* [Alfred](https://github.com/wesbos/liuxsen-Alfred-Theme)
+* [Slack](https://github.com/wesbos/liuxsen-Slack)
 
 ## Thanks
 
