@@ -1,10 +1,14 @@
-const a = 1
-const b = 2
+import { foo } from '@/foo'
 
-console.log(a, b)
+const a = 1
+const b = 21
+
+console.log(a, b, 4)
 
 const add = (a: number, b: number) => {
   return a + b
 }
 
 add(a, b)
+
+console.log(foo)

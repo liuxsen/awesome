@@ -1,20 +1,30 @@
 {
-  "name": "ts-declare",
+  "name": "ts-dev",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node out/index.js",
+    "start": "node ./out/index.js",
+    "build-ts": "ts-node ./src/index.ts",
+    "dev": "nodemon",
     "build": "tsc",
-    "prestart": "npm run build"
+    "prestart": "npm run build",
+    "debug": "ts-node-dev --inspect --respawn --transpileOnly src/index.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "typescript": "4.7.4"
+    "typescript": "4.7.4",
+    "react": "18.2.0"
   },
   "devDependencies": {
-    "@fostars/eslint-config": "workspace: *"
+    "tsconfig-paths": "^4.1.0",
+    "@types/react": "^18.0.21",
+    "ts-node-dev": "^2.0.0",
+    "ts-node": "^10.9.1",
+    "@fostars/eslint-config": "workspace: *",
+    "@types/node": "^18.11.3",
+    "nodemon": "^2.0.20"
   }
 }

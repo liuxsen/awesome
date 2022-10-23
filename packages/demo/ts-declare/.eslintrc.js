@@ -7,5 +7,16 @@ module.exports = {
   ignorePatterns: [
     // https://eslint.org/docs/latest/user-guide/configuring/ignoring-code
     'out/*'
-  ]
+  ],
+  settings: {
+    'import/parsers': {
+      '@typescript-eslint/parser': ['.ts', '.tsx']
+    },
+    // 为了读取tsconfig.json 文件，适配 ts 的 pathmaping
+    'import/resolver': {
+      typescript: {
+        project: '/Users/liujianhui/apps/awesome/packages/demo/ts-declare/tsconfig.json'
+      }
+    }
+  }
 }

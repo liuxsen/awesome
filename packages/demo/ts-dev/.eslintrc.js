@@ -15,7 +15,7 @@ module.exports = {
     // 为了读取tsconfig.json 文件，适配 ts 的 pathmaping
     'import/resolver': {
       typescript: {
-        project: '/Users/liujianhui/apps/awesome/packages/demo/ts-dev/tscconfig.json'
+        project: '/Users/liujianhui/apps/awesome/packages/demo/ts-dev/tsconfig.json'
       }
     }
   }
