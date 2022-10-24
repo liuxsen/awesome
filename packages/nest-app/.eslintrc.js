@@ -3,10 +3,14 @@ module.exports = {
   extends: [
     '@fostars/eslint-config/typescript'
   ],
+  env: {
+    jest: true,
+    node: true
+  },
   // Only one .eslintignore file can be used at a time, so .eslintignore files other than the one in the current working directory will not be used.
   ignorePatterns: [
     // https://eslint.org/docs/latest/user-guide/configuring/ignoring-code
-    'out/*'
+    'dist/*'
   ],
   settings: {
     'import/parsers': {
