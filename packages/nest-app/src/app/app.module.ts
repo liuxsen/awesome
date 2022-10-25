@@ -3,6 +3,7 @@ import { TypeOrmModule } from '@nestjs/typeorm'
 import { AppController } from './app.controller'
 import { AppService } from './app.service'
 import { UserModule } from '../user/user.module'
+import { RoleModule } from '../role/role.module'
 
 @Module({
   controllers: [
@@ -15,7 +16,7 @@ import { UserModule } from '../user/user.module'
     TypeOrmModule.forRoot({
       type: 'mysql',
       host: 'localhost',
-      port: 3306,
+      port: 33061,
       username: 'root',
       password: '123456',
       database: 'db',
@@ -24,7 +25,8 @@ import { UserModule } from '../user/user.module'
       // TODO: Setting synchronize: true shouldn't be used in production - otherwise you can lose production data.
       synchronize: true
     }),
-    UserModule
+    UserModule,
+    RoleModule
   ]
 })
 export class AppModule {}

@@ -9,7 +9,8 @@ module.exports = {
   },
   rules: {
     // https://stackoverflow.com/questions/70642350/eslint-indent-rule-indents-decorated-members
-    indent: ['error', 2, { ignoredNodes: ['PropertyDefinition'] }]
+    indent: ['error', 2, { ignoredNodes: ['PropertyDefinition'] }],
+    'no-useless-constructor': 'off'
   },
   // Only one .eslintignore file can be used at a time, so .eslintignore files other than the one in the current working directory will not be used.
   ignorePatterns: [
